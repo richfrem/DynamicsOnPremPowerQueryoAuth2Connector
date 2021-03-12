@@ -1,0 +1,16 @@
+Power BI connector setup steps
+
+Requires:
+	1. Power BI Desktop on-premise optimized for report server version
+	2. Visual Studio 2019
+	3. Download and install Power Query SDK
+	4. Have client ID and secret for an onpremise dynamics org
+	5. Configure power BI desktop security to support 3rd party connectors. 
+
+Need to do the following:
+	1. Create a folder on the computer 
+		a. This is where you copy your .MEZ extension files built in visual studio into 
+		\\sfp.idir.bcgov\u143\RICHFREM$\Microsoft Power BI Desktop\Custom Connectors
+	2. Open create a power query extension project
+	3. Compile the file	
+	4. Copy the resulting MEZ file to custom connectors
